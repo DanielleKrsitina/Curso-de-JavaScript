@@ -25,28 +25,34 @@
 // console.log(`Mais um texto`)
 // console.log(`13`)
 
-// 5 - Simbolos especiais em strings
-console.log("Testando a \n quebra de linha")
-console.log("Espaçamento \t de tab")
+// // 5 - Simbolos especiais em strings
+// console.log("Testando a \n quebra de linha")
+// console.log("Espaçamento \t de tab")
 
-// 6 - Concatenação
-console.log("Oi, " + "tudo " + "bem?")
-console.log(`Testando ` + `com ` + `crase!` )
+// // 6 - Concatenação
+// console.log("Oi, " + "tudo " + "bem?")
+// console.log(`Testando ` + `com ` + `crase!` )
 
-// 7 - Interpolação (Template Strings)
-console.log(`A soma de 2 + 2 é: ${2 + 2}`)
-console.log(`Podemos executar qualquer coisas aqui ${console.log("teste")}`)
+// // 7 - Interpolação (Template Strings)
+// console.log(`A soma de 2 + 2 é: ${2 + 2}`)
+// console.log(`Podemos executar qualquer coisas aqui ${console.log("teste")}`)
 
-// 8 - Booleans 
-console.log(true)
-console.log(5 > 20)
-console.log(30 > 10)
+// // 8 - Booleans 
+// console.log(true)
+// console.log(5 > 20)
+// console.log(30 > 10)
 
-console.log(typeof true)
+// console.log(typeof true)
 
-// 9 - Comparações
-console.log(5 <= 5)
-console.log(5 < 5)
-console.log(10 == 10)
-console.log(10 == 9)
-console.log(10 != 9)
+// // 9 - Comparações
+// console.log(5 <= 5)
+// console.log(5 < 5)
+// console.log(10 == 10)
+// console.log(10 == 9)
+// console.log(10 != 9)
+
+// 10 - Idênticos
+console.log(9 == "9")
+console.log(9 === "9")
+console.log(9 != "9")
+console.log(9 !== "9")
