@@ -104,13 +104,36 @@
 //     console.log("Agora sim!")
 // }
 
-const userName = "Danielle"
-const userAge = 28;
+// const userName = "Danielle"
+// const userAge = 28;
 
-if(userName === "Maria") {
-    console.log("Bem vinda Maria!")
-} else if(userName === "Danielle" && userAge === 28) {
-    console.log("Olá Danielle, você tem 28 anos")
-} else {
-    console.log("Nehuma condição aceita!")
+// if(userName === "Maria") {
+//     console.log("Bem vinda Maria!")
+// } else if(userName === "Danielle" && userAge === 28) {
+//     console.log("Olá Danielle, você tem 28 anos")
+// } else {
+//     console.log("Nehuma condição aceita!")
+// }
+
+// 10 - while
+let p = 0
+
+while(p < 5){
+    console.log(`Repetindo ${p}`)
+    p = p + 1
 }
+
+// loop infinito
+// let x = 10
+
+// while(x > 5){
+//     console.log(`Imprimir ${x}`)
+// }
+
+// 11 - do while 
+let o = 10
+
+do {
+    console.log(`valor de o: ${0}`)
+    o--;
+} while (0 > 1)
